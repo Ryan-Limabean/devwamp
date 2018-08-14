@@ -1,0 +1,15 @@
+# Ignore these files
+!/*/empty
+bin/apache/*/logs/*
+#bin/apache/*/conf/extra/httpd-vhosts.conf
+bin/mariadb/10.1/data/*
+bin/mariadb/10.1/bin/data/*
+bin/mariadb/database_data
+bin/php/*/logs/*
+bin/papercut/rules.json
+bin/papercut/Logs/*
+bin/papercut/Incomming/*
+www/*
+!www/.htaccess
+!www/index.php
+!www/phpinfo/*

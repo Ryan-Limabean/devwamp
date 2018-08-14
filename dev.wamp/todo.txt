@@ -1,0 +1,12 @@
+scrap acrylic dns because it isnt all that useful
+add latest php 7.x
+see if i can get ssl working on localhost
+find a way to link c:/dev.wamp/www to /var/www as far as apache is concerned
+.htaccess mod rewrite rule needs to be tweaked to load index.php sometimes (add a "?")
+let apache serve pages from other webroots (ie c:\wamp\www) as well
+update readme to say that you dont have to uninstall wamp - just stop the services
+finish making uninstall.bat
+gitignore log file dirs and remove logs from repo
+consider using a package manager for all the packages in this repo
+allow installation in other directories using bat file execution directory? - mission because config and ini files also point to paths
+find a way to exclude www dir from git repo
